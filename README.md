@@ -1,6 +1,7 @@
-# Personal Website
+# Pedro H. Pinto — Personal Website
 
-Source for my personal website: career, expertise, selected work and contact.
+Source for [pedroharp.github.io/personal-website](https://pedroharp.github.io/personal-website/): career, expertise,
+selected work and contact.
 
 This is a static site (plain HTML, CSS and JavaScript) with no build step.
 
@@ -22,9 +23,8 @@ python -m http.server 8000
 
 ## Editing content
 
-Every placeholder is wrapped in square brackets, e.g. `[Company]`, `[Outcome with a number]`.
-Search for `[` in `index.html` to find them all. Colors and fonts are set as CSS variables at the top
-of `styles.css`.
+All copy lives in `index.html`. The portrait is still a placeholder (`.portrait` in the hero). Colors and fonts
+are set as CSS variables at the top of `styles.css`.
 
 ## Deploy (GitHub Pages)
 

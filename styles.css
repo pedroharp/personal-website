@@ -305,7 +305,8 @@ em { font-style: italic; }
   padding-top: 28px; border-top: 1px solid var(--line);
 }
 .certs__label { font-size: 13px; color: var(--muted); white-space: nowrap; }
-.certs ul { display: flex; flex-wrap: wrap; gap: 10px 36px; font-weight: 500; font-size: 15px; }
+.certs ul { display: flex; flex-wrap: wrap; gap: 10px 32px; font-weight: 500; font-size: 15px; }
+.certs li { white-space: nowrap; }
 
 /* Work (dark) */
 .section--dark { background: var(--dark); color: var(--dark-ink); }
@@ -356,13 +357,10 @@ em { font-style: italic; }
 
 /* Posts */
 .posts { border-top: 1px solid var(--line); }
-.posts a {
+.posts__row {
   display: grid; grid-template-columns: 140px 1fr auto; gap: 32px; align-items: center;
   padding: 28px 0; border-bottom: 1px solid var(--line);
-  transition: padding .4s var(--ease), color .3s;
 }
-.posts a:hover { padding-left: 12px; }
-.posts a:hover .posts__title { color: var(--accent); }
 .posts__date { font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
 .posts__title { font-family: var(--serif); font-size: clamp(22px, 2.2vw, 28px); line-height: 1.2; transition: color .3s; }
 .posts__type {
@@ -428,7 +426,7 @@ em { font-style: italic; }
   .role { grid-template-columns: 1fr; gap: 8px; padding: 32px 0; }
   .role__when { padding-top: 0; }
   .certs { flex-direction: column; gap: 14px; }
-  .posts a { grid-template-columns: 1fr auto; gap: 8px 16px; }
+  .posts__row { grid-template-columns: 1fr auto; gap: 8px 16px; }
   .posts__date { grid-column: 1 / -1; }
 }
 
