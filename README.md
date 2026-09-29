@@ -23,7 +23,7 @@ python -m http.server 8000
 
 ## Editing content
 
-All copy lives in `index.html`. The portrait is still a placeholder (`.portrait` in the hero). Colors and fonts
+All copy lives in `index.html`; photos live in `assets/`. Colors and fonts
 are set as CSS variables at the top of `styles.css`.
 
 ## Deploy (GitHub Pages)
