@@ -9,7 +9,6 @@ This is a static site (plain HTML, CSS and JavaScript) with no build step.
 
 ```
 index.html           Landing page markup (content lives here)
-work/*.html          One page per case study, linked from Selected Work
 styles.css           Design tokens, layout and components (case-study styles at the end)
 main.js              Sticky nav, mobile menu, scroll reveal
 resume/resume.html   Source for the downloadable résumé
@@ -23,7 +22,7 @@ and `playwright install chromium`). Commit the regenerated PDF.
 
 ## What can go public
 
-Case studies and the résumé name Dell and describe products by what they do. They leave out internal
+The résumé names Dell and describe products by what they do. It leaves out internal
 project names, partner and vendor names, and project-level dollar figures. Org-level FY26 totals are
 the only dollar figures on the site.
 
@@ -46,3 +45,5 @@ are set as CSS variables at the top of `styles.css`.
 2. Under **Build and deployment**, choose **Deploy from a branch**, then pick `main` / `(root)`.
 3. The site goes live at `https://<username>.github.io/<repo>/`.
 4. To use a custom domain, add it under **Custom domain** and point your DNS at GitHub Pages.
+
+Case-study pages are parked on the `case-studies-draft` branch until they are reviewed.
