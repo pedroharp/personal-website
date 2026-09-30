@@ -8,10 +8,24 @@ This is a static site (plain HTML, CSS and JavaScript) with no build step.
 ## Structure
 
 ```
-index.html   Landing page markup (content lives here)
-styles.css   Design tokens, layout and components
-main.js      Sticky nav, mobile menu, scroll reveal
+index.html           Landing page markup (content lives here)
+work/*.html          One page per case study, linked from Selected Work
+styles.css           Design tokens, layout and components (case-study styles at the end)
+main.js              Sticky nav, mobile menu, scroll reveal
+resume/resume.html   Source for the downloadable résumé
+resume/build_pdf.py  Prints the résumé to assets/Pedro-H-Pinto-Resume.pdf
 ```
+
+## Updating the résumé
+
+Edit `resume/resume.html`, then run `python3 resume/build_pdf.py` (needs `pip install playwright`
+and `playwright install chromium`). Commit the regenerated PDF.
+
+## What can go public
+
+Case studies and the résumé name Dell and describe products by what they do. They leave out internal
+project names, partner and vendor names, and project-level dollar figures. Org-level FY26 totals are
+the only dollar figures on the site.
 
 ## Run locally
 
