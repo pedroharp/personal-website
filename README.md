@@ -8,23 +8,18 @@ This is a static site (plain HTML, CSS and JavaScript) with no build step.
 ## Structure
 
 ```
-index.html           Landing page markup (content lives here)
-styles.css           Design tokens, layout and components (case-study styles at the end)
-main.js              Sticky nav, mobile menu, scroll reveal
-resume/resume.html   Source for the downloadable résumé
-resume/build_pdf.py  Prints the résumé to assets/Pedro-H-Pinto-Resume.pdf
+index.html   Landing page markup (content lives here)
+styles.css   Design tokens, layout and components (case-study styles at the end)
+main.js      Sticky nav, mobile menu, scroll reveal
+assets/      Photos
 ```
 
-## Updating the résumé
-
-Edit `resume/resume.html`, then run `python3 resume/build_pdf.py` (needs `pip install playwright`
-and `playwright install chromium`). Commit the regenerated PDF.
+There is deliberately no résumé on the site: résumés are tailored per application and sent directly.
 
 ## What can go public
 
-The résumé names Dell and describe products by what they do. It leaves out internal
-project names, partner and vendor names, and project-level dollar figures. Org-level FY26 totals are
-the only dollar figures on the site.
+The site names Dell and describes products by what they do. It leaves out internal project names, partner and
+vendor names, and project-level dollar figures. FY26 totals are the only dollar figures on the site.
 
 ## Run locally
 
@@ -46,4 +41,4 @@ are set as CSS variables at the top of `styles.css`.
 3. The site goes live at `https://<username>.github.io/<repo>/`.
 4. To use a custom domain, add it under **Custom domain** and point your DNS at GitHub Pages.
 
-Case-study pages are parked on the `case-studies-draft` branch until they are reviewed.
+Full-length case-study pages are parked on the `case-studies-draft` branch.
