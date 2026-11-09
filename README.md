@@ -41,4 +41,4 @@ are set as CSS variables at the top of `styles.css`.
 3. The site goes live at `https://<username>.github.io/<repo>/`.
 4. To use a custom domain, add it under **Custom domain** and point your DNS at GitHub Pages.
 
-Full-length case-study pages are parked on the `case-studies-draft` branch.
+Full-length case-study drafts are kept outside this repo until they are reviewed.
